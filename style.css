@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body,html{
+    margin: 0%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+}
+
+#ContainerTitle{
+    width:100%;
+    background-color: #2c6704;
+    height: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0%;
+    margin-bottom: 2rem;
+    position: fixed;
+     z-index: 11;
+}
+
+h2{
+    font-family: sans-serif;
+    margin-bottom: -2px;
+    color: green;
+}
+
+#ContainerText{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(234, 235, 225);
+    display: flex;
+    flex-direction: column;
+    padding: 9vw;
+    justify-content: center;
+    
+}
+
+.ImgTema{
+   height: 300px;
+    width: 60vw;
+    border-radius: 5%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    bottom: 7rem;
+}
+
+#ContainerIMG{
+    width: 60vw;
+    height: 300px;
+    background-color: #00000087;
+    position: relative;
+    z-index: 3;
+    border-radius: 5%;
+    bottom: -6.25rem;
+}
+#ALingIMG{
+    width: 60vw;
+    height: 300px;
+    display: flex;
+}
+
+.FontImg{
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    z-index: 4;
+    margin-top: -18px;
+    top: 13rem;
+    left: 5rem;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.MenuIcon{
+    height: 27px;
+    width: 27px;
+}
+
+.LogoEco{
+    height: 7rem;
+    width: 7rem;
+}
+
+.menu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.MenuAP{
+    position: absolute;
+    left: 0rem;
+    bottom: -6.7rem;
+    background-color: #fff;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+    width: 25%;
+    z-index: 5;
+   opacity: 0;
+    transition: transform 0.5s ease;
+    position: fixed;
+    z-index: 11;
+}
+
+.MenuAP.open{
+   opacity: 9;
+   transition: all 0.5s ease;
+}
+
+.itemList{
+    list-style: none;
+    margin: 2.5rem;
+   
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #2c6704;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#AlingMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.open{
+    display: block;
+}
+.PesquisaCont{
+    display: flex;
+    align-items: center;
+    
+}
+
+.PesquisaCont img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.PesquisaCont input{
+    border: 1px;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+.list .active{
+    display: block;
+}
+
+.list .active li{
+    width: 220px;
+    opacity: 1;
+    overflow-y: auto;
+}
+
+.PFlorest{
+    margin-bottom: -4px;
+}
+
+.ListRef{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.ALingTxt{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;}
+
+footer{
+
+bottom: 0px;
+ display: flex;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #2c6704;
+  color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer img{
+    color: #fff;
+}
+
+.AlingFooter-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
